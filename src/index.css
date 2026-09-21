@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@keyframes eq-bounce-1 {
+  0%, 100% { height: 4px; }
+  50% { height: 16px; }
+}
+@keyframes eq-bounce-2 {
+  0%, 100% { height: 14px; }
+  50% { height: 5px; }
+}
+@keyframes eq-bounce-3 {
+  0%, 100% { height: 7px; }
+  50% { height: 18px; }
+}
+@keyframes eq-bounce-4 {
+  0%, 100% { height: 16px; }
+  50% { height: 6px; }
+}
+
+.animate-eq-1 {
+  animation: eq-bounce-1 0.75s ease-in-out infinite;
+}
+.animate-eq-2 {
+  animation: eq-bounce-2 0.55s ease-in-out infinite;
+}
+.animate-eq-3 {
+  animation: eq-bounce-3 0.65s ease-in-out infinite;
+}
+.animate-eq-4 {
+  animation: eq-bounce-4 0.85s ease-in-out infinite;
+}
